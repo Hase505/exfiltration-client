@@ -1,5 +1,4 @@
 package com.hase505.strategies.send;
-
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -26,13 +25,22 @@ public class HTTPSendStrategy implements SendStrategy{
                     .POST(HttpRequest.BodyPublishers.ofString(encodedData))
                     .build();
         } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
+            System.err.println("URI inválida");
+            return;
+        } catch (IllegalArgumentException e){
+            System.err.println("URI inválida");
+            return;
         }
 
+
         try {
+            System.out.println("Enviando dados via HTTP(s)");
             httpclient.send(request, HttpResponse.BodyHandlers.ofString());
+            System.out.println("Dados enviados");
+
         } catch (IOException | InterruptedException e) {
-            throw new RuntimeException(e);
+            System.err.println("Não foi possível enviar dados via HTTP(s)");
+            return;
         }
     }
 }

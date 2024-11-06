@@ -5,22 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb6f954-2d12-480a-8620-d281a14ad048" name="Changes" comment="Commit inicial do projeto.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/entities/ExfiltrationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/entities/ExfiltrationFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/Base32Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/CompositeEncodingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/EncodeStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/HexadecimalStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/DNSSendStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/HTTPSendStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/SendStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hase505/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/entities/ExfiltrationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/entities/ExfiltrationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/entities/ExfiltrationFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/entities/ExfiltrationFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/Base32Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/Base32Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/CompositeEncodingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/CompositeEncodingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/EncodeStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/EncodeStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/HexadecimalStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/encode/HexadecimalStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/DNSSendStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/DNSSendStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/HTTPSendStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/HTTPSendStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/SendStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hase505/strategies/send/SendStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hase505/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hase505/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +46,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2lzPfZETYKXcpT53t2XbIEDa3ID" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,11 +59,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/erick/OneDrive - UNIOESTE/Documentos/Projetos/exfiltration-client"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
